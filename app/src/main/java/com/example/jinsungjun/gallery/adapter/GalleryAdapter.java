@@ -77,7 +77,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.Holder> 
             });
 
         }
-
+        // 이미지를 로드하는 함수
         public void setImage(String ImagePath) {
             Uri uri = Uri.parse(ImagePath);
             image.setImageURI(uri);
